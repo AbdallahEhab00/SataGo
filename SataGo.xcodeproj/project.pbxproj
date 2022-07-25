@@ -7,23 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C96F519B476ECADBFAA9025 /* Pods_SataGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5340EE2A70003DBB4B1A16 /* Pods_SataGo.framework */; };
+		D60A952B288DD0690008DD11 /* MyCoupon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60A9529288DD0690008DD11 /* MyCoupon.swift */; };
+		D60A952C288DD0690008DD11 /* MyCoupon.xib in Resources */ = {isa = PBXBuildFile; fileRef = D60A952A288DD0690008DD11 /* MyCoupon.xib */; };
+		D60A9535288DF6570008DD11 /* NewTripDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60A9533288DF6570008DD11 /* NewTripDetails.swift */; };
+		D60A9536288DF6570008DD11 /* NewTripDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = D60A9534288DF6570008DD11 /* NewTripDetails.xib */; };
+		D679A0DE28894B7800E949A5 /* SGConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679A0DD28894B7800E949A5 /* SGConstant.swift */; };
+		D679A0E32889718D00E949A5 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679A0E12889718D00E949A5 /* HomeController.swift */; };
+		D679A0E42889718D00E949A5 /* HomeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D679A0E22889718D00E949A5 /* HomeController.xib */; };
+		D679A0E82889800300E949A5 /* SelectLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679A0E62889800300E949A5 /* SelectLocation.swift */; };
+		D679A0E92889800300E949A5 /* SelectLocation.xib in Resources */ = {isa = PBXBuildFile; fileRef = D679A0E72889800300E949A5 /* SelectLocation.xib */; };
+		D679A0ED288982A000E949A5 /* SpecificDestinationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679A0EB288982A000E949A5 /* SpecificDestinationCell.swift */; };
+		D679A0EE288982A000E949A5 /* SpecificDestinationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D679A0EC288982A000E949A5 /* SpecificDestinationCell.xib */; };
+		D679A0F1288986F600E949A5 /* UITableView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679A0F0288986F600E949A5 /* UITableView+ext.swift */; };
+		D679A0F4288992DF00E949A5 /* PlacesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679A0F2288992DF00E949A5 /* PlacesCell.swift */; };
+		D679A0F5288992DF00E949A5 /* PlacesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D679A0F3288992DF00E949A5 /* PlacesCell.xib */; };
+		D6ACE9CE28883D6D003F9FE9 /* CompleteRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ACE9CC28883D6D003F9FE9 /* CompleteRegister.swift */; };
+		D6ACE9CF28883D6D003F9FE9 /* CompleteRegister.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6ACE9CD28883D6D003F9FE9 /* CompleteRegister.xib */; };
+		D6ACE9D228885187003F9FE9 /* ForgetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ACE9D028885187003F9FE9 /* ForgetPassword.swift */; };
+		D6ACE9D328885187003F9FE9 /* ForgetPassword.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6ACE9D128885187003F9FE9 /* ForgetPassword.xib */; };
+		D6ACE9D6288855F4003F9FE9 /* NewPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ACE9D4288855F4003F9FE9 /* NewPasswordVC.swift */; };
+		D6ACE9D7288855F4003F9FE9 /* NewPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6ACE9D5288855F4003F9FE9 /* NewPasswordVC.xib */; };
+		D6ADFC352889A6E10024003A /* MakeNewOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ADFC332889A6E10024003A /* MakeNewOrder.swift */; };
+		D6ADFC362889A6E10024003A /* MakeNewOrder.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6ADFC342889A6E10024003A /* MakeNewOrder.xib */; };
 		D6B0D7C52887FBAC00AD4611 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B0D7C42887FBAC00AD4611 /* AppDelegate.swift */; };
 		D6B0D7C72887FBAC00AD4611 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B0D7C62887FBAC00AD4611 /* SceneDelegate.swift */; };
-		D6B0D7C92887FBAC00AD4611 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B0D7C82887FBAC00AD4611 /* ViewController.swift */; };
-		D6B0D7CC2887FBAC00AD4611 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B0D7CA2887FBAC00AD4611 /* Main.storyboard */; };
 		D6B0D7CE2887FBAD00AD4611 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6B0D7CD2887FBAD00AD4611 /* Assets.xcassets */; };
 		D6B0D7D12887FBAD00AD4611 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B0D7CF2887FBAD00AD4611 /* LaunchScreen.storyboard */; };
+		D6B0D7E5288804BB00AD4611 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B0D7E3288804BB00AD4611 /* LoginScreen.swift */; };
+		D6B0D7E6288804BB00AD4611 /* LoginScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6B0D7E4288804BB00AD4611 /* LoginScreen.xib */; };
+		D6B0D7EA288828BF00AD4611 /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B0D7E8288828BF00AD4611 /* RegisterScreen.swift */; };
+		D6B0D7EB288828BF00AD4611 /* RegisterScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6B0D7E9288828BF00AD4611 /* RegisterScreen.xib */; };
+		D6B0D7EF2888321800AD4611 /* ConfirmAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B0D7ED2888321800AD4611 /* ConfirmAccount.swift */; };
+		D6B0D7F02888321800AD4611 /* ConfirmAccount.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6B0D7EE2888321800AD4611 /* ConfirmAccount.xib */; };
+		D6D39AD2288B15A9000B8939 /* UIView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D39AD1288B15A9000B8939 /* UIView+ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C9BD820066CA37A41B49E5B /* Pods-SataGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SataGo.debug.xcconfig"; path = "Target Support Files/Pods-SataGo/Pods-SataGo.debug.xcconfig"; sourceTree = "<group>"; };
+		9E5213FA196A74653BB73E67 /* Pods-SataGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SataGo.release.xcconfig"; path = "Target Support Files/Pods-SataGo/Pods-SataGo.release.xcconfig"; sourceTree = "<group>"; };
+		D60A9529288DD0690008DD11 /* MyCoupon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCoupon.swift; sourceTree = "<group>"; };
+		D60A952A288DD0690008DD11 /* MyCoupon.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCoupon.xib; sourceTree = "<group>"; };
+		D60A9533288DF6570008DD11 /* NewTripDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTripDetails.swift; sourceTree = "<group>"; };
+		D60A9534288DF6570008DD11 /* NewTripDetails.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewTripDetails.xib; sourceTree = "<group>"; };
+		D679A0DD28894B7800E949A5 /* SGConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGConstant.swift; sourceTree = "<group>"; };
+		D679A0E12889718D00E949A5 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		D679A0E22889718D00E949A5 /* HomeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeController.xib; sourceTree = "<group>"; };
+		D679A0E62889800300E949A5 /* SelectLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLocation.swift; sourceTree = "<group>"; };
+		D679A0E72889800300E949A5 /* SelectLocation.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectLocation.xib; sourceTree = "<group>"; };
+		D679A0EB288982A000E949A5 /* SpecificDestinationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificDestinationCell.swift; sourceTree = "<group>"; };
+		D679A0EC288982A000E949A5 /* SpecificDestinationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpecificDestinationCell.xib; sourceTree = "<group>"; };
+		D679A0F0288986F600E949A5 /* UITableView+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+ext.swift"; sourceTree = "<group>"; };
+		D679A0F2288992DF00E949A5 /* PlacesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesCell.swift; sourceTree = "<group>"; };
+		D679A0F3288992DF00E949A5 /* PlacesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlacesCell.xib; sourceTree = "<group>"; };
+		D6ACE9CC28883D6D003F9FE9 /* CompleteRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteRegister.swift; sourceTree = "<group>"; };
+		D6ACE9CD28883D6D003F9FE9 /* CompleteRegister.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompleteRegister.xib; sourceTree = "<group>"; };
+		D6ACE9D028885187003F9FE9 /* ForgetPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPassword.swift; sourceTree = "<group>"; };
+		D6ACE9D128885187003F9FE9 /* ForgetPassword.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgetPassword.xib; sourceTree = "<group>"; };
+		D6ACE9D4288855F4003F9FE9 /* NewPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordVC.swift; sourceTree = "<group>"; };
+		D6ACE9D5288855F4003F9FE9 /* NewPasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewPasswordVC.xib; sourceTree = "<group>"; };
+		D6ADFC332889A6E10024003A /* MakeNewOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeNewOrder.swift; sourceTree = "<group>"; };
+		D6ADFC342889A6E10024003A /* MakeNewOrder.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MakeNewOrder.xib; sourceTree = "<group>"; };
 		D6B0D7C12887FBAC00AD4611 /* SataGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SataGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6B0D7C42887FBAC00AD4611 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6B0D7C62887FBAC00AD4611 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D6B0D7C82887FBAC00AD4611 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D6B0D7CB2887FBAC00AD4611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6B0D7CD2887FBAD00AD4611 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6B0D7D02887FBAD00AD4611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6B0D7D22887FBAD00AD4611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6B0D7E3288804BB00AD4611 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		D6B0D7E4288804BB00AD4611 /* LoginScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginScreen.xib; sourceTree = "<group>"; };
+		D6B0D7E8288828BF00AD4611 /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
+		D6B0D7E9288828BF00AD4611 /* RegisterScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterScreen.xib; sourceTree = "<group>"; };
+		D6B0D7ED2888321800AD4611 /* ConfirmAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmAccount.swift; sourceTree = "<group>"; };
+		D6B0D7EE2888321800AD4611 /* ConfirmAccount.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfirmAccount.xib; sourceTree = "<group>"; };
+		D6D39AD1288B15A9000B8939 /* UIView+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ext.swift"; sourceTree = "<group>"; };
+		DE5340EE2A70003DBB4B1A16 /* Pods_SataGo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SataGo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +89,140 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C96F519B476ECADBFAA9025 /* Pods_SataGo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB165981A4C84787A3AF59EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE5340EE2A70003DBB4B1A16 /* Pods_SataGo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D60A952D288DD6A40008DD11 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D6B0D7E3288804BB00AD4611 /* LoginScreen.swift */,
+				D6B0D7E4288804BB00AD4611 /* LoginScreen.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D60A952E288DD6C40008DD11 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				D679A0DD28894B7800E949A5 /* SGConstant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		D60A952F288DD7160008DD11 /* Password */ = {
+			isa = PBXGroup;
+			children = (
+				D60A9530288DD72C0008DD11 /* Views */,
+			);
+			path = Password;
+			sourceTree = "<group>";
+		};
+		D60A9530288DD72C0008DD11 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D6ACE9D028885187003F9FE9 /* ForgetPassword.swift */,
+				D6ACE9D128885187003F9FE9 /* ForgetPassword.xib */,
+				D6ACE9D4288855F4003F9FE9 /* NewPasswordVC.swift */,
+				D6ACE9D5288855F4003F9FE9 /* NewPasswordVC.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D60A9531288DD7B60008DD11 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D679A0E62889800300E949A5 /* SelectLocation.swift */,
+				D679A0E72889800300E949A5 /* SelectLocation.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D60A9532288DF5A70008DD11 /* Trip */ = {
+			isa = PBXGroup;
+			children = (
+				D60A9533288DF6570008DD11 /* NewTripDetails.swift */,
+				D60A9534288DF6570008DD11 /* NewTripDetails.xib */,
+			);
+			path = Trip;
+			sourceTree = "<group>";
+		};
+		D679A0DF28894B8A00E949A5 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				D6B0D7C42887FBAC00AD4611 /* AppDelegate.swift */,
+				D6B0D7C62887FBAC00AD4611 /* SceneDelegate.swift */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		D679A0E028896F5600E949A5 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				D679A0E12889718D00E949A5 /* HomeController.swift */,
+				D679A0E22889718D00E949A5 /* HomeController.xib */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		D679A0E528897EBF00E949A5 /* Sata Ride */ = {
+			isa = PBXGroup;
+			children = (
+				D60A9531288DD7B60008DD11 /* Views */,
+				D679A0EA2889823500E949A5 /* Cells */,
+			);
+			path = "Sata Ride";
+			sourceTree = "<group>";
+		};
+		D679A0EA2889823500E949A5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D679A0EB288982A000E949A5 /* SpecificDestinationCell.swift */,
+				D679A0EC288982A000E949A5 /* SpecificDestinationCell.xib */,
+				D679A0F2288992DF00E949A5 /* PlacesCell.swift */,
+				D679A0F3288992DF00E949A5 /* PlacesCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		D679A0EF288986B900E949A5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D679A0F0288986F600E949A5 /* UITableView+ext.swift */,
+				D6D39AD1288B15A9000B8939 /* UIView+ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D6ADFC2E2889A48C0024003A /* OrderDelivery */ = {
+			isa = PBXGroup;
+			children = (
+				D6ADFC332889A6E10024003A /* MakeNewOrder.swift */,
+				D6ADFC342889A6E10024003A /* MakeNewOrder.xib */,
+				D60A9529288DD0690008DD11 /* MyCoupon.swift */,
+				D60A952A288DD0690008DD11 /* MyCoupon.xib */,
+			);
+			path = OrderDelivery;
+			sourceTree = "<group>";
+		};
 		D6B0D7B82887FBAC00AD4611 = {
 			isa = PBXGroup;
 			children = (
 				D6B0D7C32887FBAC00AD4611 /* SataGo */,
 				D6B0D7C22887FBAC00AD4611 /* Products */,
+				D7BDB6331386DC29EAA75133 /* Pods */,
+				BB165981A4C84787A3AF59EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +237,59 @@
 		D6B0D7C32887FBAC00AD4611 /* SataGo */ = {
 			isa = PBXGroup;
 			children = (
-				D6B0D7C42887FBAC00AD4611 /* AppDelegate.swift */,
-				D6B0D7C62887FBAC00AD4611 /* SceneDelegate.swift */,
-				D6B0D7C82887FBAC00AD4611 /* ViewController.swift */,
-				D6B0D7CA2887FBAC00AD4611 /* Main.storyboard */,
+				D679A0DF28894B8A00E949A5 /* Supports */,
+				D60A952E288DD6C40008DD11 /* Constant */,
+				D679A0EF288986B900E949A5 /* Extension */,
+				D6B0D7E72888289300AD4611 /* Register */,
+				D60A952F288DD7160008DD11 /* Password */,
+				D6B0D7DC2887FBF700AD4611 /* Login */,
+				D679A0E028896F5600E949A5 /* HomeVC */,
+				D679A0E528897EBF00E949A5 /* Sata Ride */,
+				D6ADFC2E2889A48C0024003A /* OrderDelivery */,
+				D60A9532288DF5A70008DD11 /* Trip */,
 				D6B0D7CD2887FBAD00AD4611 /* Assets.xcassets */,
 				D6B0D7CF2887FBAD00AD4611 /* LaunchScreen.storyboard */,
 				D6B0D7D22887FBAD00AD4611 /* Info.plist */,
 			);
 			path = SataGo;
+			sourceTree = "<group>";
+		};
+		D6B0D7DC2887FBF700AD4611 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D60A952D288DD6A40008DD11 /* Views */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D6B0D7E72888289300AD4611 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				D6B0D7EC288831C800AD4611 /* VIews */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		D6B0D7EC288831C800AD4611 /* VIews */ = {
+			isa = PBXGroup;
+			children = (
+				D6B0D7E8288828BF00AD4611 /* RegisterScreen.swift */,
+				D6B0D7E9288828BF00AD4611 /* RegisterScreen.xib */,
+				D6B0D7ED2888321800AD4611 /* ConfirmAccount.swift */,
+				D6B0D7EE2888321800AD4611 /* ConfirmAccount.xib */,
+				D6ACE9CC28883D6D003F9FE9 /* CompleteRegister.swift */,
+				D6ACE9CD28883D6D003F9FE9 /* CompleteRegister.xib */,
+			);
+			path = VIews;
+			sourceTree = "<group>";
+		};
+		D7BDB6331386DC29EAA75133 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C9BD820066CA37A41B49E5B /* Pods-SataGo.debug.xcconfig */,
+				9E5213FA196A74653BB73E67 /* Pods-SataGo.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +299,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6B0D7D52887FBAD00AD4611 /* Build configuration list for PBXNativeTarget "SataGo" */;
 			buildPhases = (
+				7C96B21231C11BF1DC74B56A /* [CP] Check Pods Manifest.lock */,
 				D6B0D7BD2887FBAC00AD4611 /* Sources */,
 				D6B0D7BE2887FBAC00AD4611 /* Frameworks */,
 				D6B0D7BF2887FBAC00AD4611 /* Resources */,
+				69D812A76FF3C38A5F44F931 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,36 +352,97 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6ACE9D7288855F4003F9FE9 /* NewPasswordVC.xib in Resources */,
+				D6B0D7EB288828BF00AD4611 /* RegisterScreen.xib in Resources */,
+				D6B0D7E6288804BB00AD4611 /* LoginScreen.xib in Resources */,
+				D679A0F5288992DF00E949A5 /* PlacesCell.xib in Resources */,
+				D60A9536288DF6570008DD11 /* NewTripDetails.xib in Resources */,
+				D6ACE9D328885187003F9FE9 /* ForgetPassword.xib in Resources */,
+				D679A0E42889718D00E949A5 /* HomeController.xib in Resources */,
 				D6B0D7D12887FBAD00AD4611 /* LaunchScreen.storyboard in Resources */,
+				D679A0E92889800300E949A5 /* SelectLocation.xib in Resources */,
+				D679A0EE288982A000E949A5 /* SpecificDestinationCell.xib in Resources */,
+				D6ADFC362889A6E10024003A /* MakeNewOrder.xib in Resources */,
+				D6ACE9CF28883D6D003F9FE9 /* CompleteRegister.xib in Resources */,
 				D6B0D7CE2887FBAD00AD4611 /* Assets.xcassets in Resources */,
-				D6B0D7CC2887FBAC00AD4611 /* Main.storyboard in Resources */,
+				D6B0D7F02888321800AD4611 /* ConfirmAccount.xib in Resources */,
+				D60A952C288DD0690008DD11 /* MyCoupon.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		69D812A76FF3C38A5F44F931 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SataGo/Pods-SataGo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SataGo/Pods-SataGo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SataGo/Pods-SataGo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C96B21231C11BF1DC74B56A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SataGo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D6B0D7BD2887FBAC00AD4611 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6B0D7C92887FBAC00AD4611 /* ViewController.swift in Sources */,
+				D6D39AD2288B15A9000B8939 /* UIView+ext.swift in Sources */,
+				D679A0ED288982A000E949A5 /* SpecificDestinationCell.swift in Sources */,
+				D6B0D7EA288828BF00AD4611 /* RegisterScreen.swift in Sources */,
+				D6B0D7E5288804BB00AD4611 /* LoginScreen.swift in Sources */,
+				D679A0F4288992DF00E949A5 /* PlacesCell.swift in Sources */,
+				D679A0DE28894B7800E949A5 /* SGConstant.swift in Sources */,
+				D6B0D7EF2888321800AD4611 /* ConfirmAccount.swift in Sources */,
+				D679A0E32889718D00E949A5 /* HomeController.swift in Sources */,
+				D60A952B288DD0690008DD11 /* MyCoupon.swift in Sources */,
+				D679A0F1288986F600E949A5 /* UITableView+ext.swift in Sources */,
+				D6ADFC352889A6E10024003A /* MakeNewOrder.swift in Sources */,
 				D6B0D7C52887FBAC00AD4611 /* AppDelegate.swift in Sources */,
+				D6ACE9D6288855F4003F9FE9 /* NewPasswordVC.swift in Sources */,
+				D6ACE9D228885187003F9FE9 /* ForgetPassword.swift in Sources */,
+				D60A9535288DF6570008DD11 /* NewTripDetails.swift in Sources */,
 				D6B0D7C72887FBAC00AD4611 /* SceneDelegate.swift in Sources */,
+				D6ACE9CE28883D6D003F9FE9 /* CompleteRegister.swift in Sources */,
+				D679A0E82889800300E949A5 /* SelectLocation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D6B0D7CA2887FBAC00AD4611 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D6B0D7CB2887FBAC00AD4611 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D6B0D7CF2887FBAD00AD4611 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +572,7 @@
 		};
 		D6B0D7D62887FBAD00AD4611 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C9BD820066CA37A41B49E5B /* Pods-SataGo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -293,7 +582,6 @@
 				INFOPLIST_FILE = SataGo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -311,6 +599,7 @@
 		};
 		D6B0D7D72887FBAD00AD4611 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E5213FA196A74653BB73E67 /* Pods-SataGo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +609,6 @@
 				INFOPLIST_FILE = SataGo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
